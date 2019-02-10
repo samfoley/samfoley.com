@@ -1,0 +1,9 @@
+{
+  "name": "samfoley.com",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.html",
+  "repository": "https://github.com/samfoley/samfoley.com",
+  "author": "Sam Foley <sam@samfoley.com>",
+  "license": "MIT"
+}
