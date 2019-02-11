@@ -1,9 +1,58 @@
 <html>
 <head>
 <title>Sam Foley Software Developer</title>
+<style>
+body {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #6D7275;
+    color: #C7D6D5;
+    font-family: sans-serif;
+}
+
+#content {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    padding: 50px;
+    background-color: #9c2c01;
+}
+h1 {
+    font-family: sans-serif;
+    color: #ECEBF3;
+    
+}
+h2 {
+    font-family: sans-serif;
+    
+}
+li { 
+    display: inline;
+    background-color:  #6D7275;
+    padding: 10px;
+    
+}
+a {
+    color: #0C120C;
+}
+</style>
 </head>
 <body>
-<h1>Sam Foley</h1>
-<h2>Software Developer</h2>
+    <div id="content">
+           <h1>Sam Foley</h1>
+           <h2>Software Developer</h2>
+           <h3>Projects</h3>
+           <ul>
+               <li>Art Reveal</li>
+               <li>Next Project</li>
+               <li>Bitcoin Smartcard</li>
+           </ul>
+           <p>
+               <a href="https://github.com/samfoley">Github</a>
+               <a href="mailto:sam@samfoley.com">Email</a></a>
+           </p>
+    </div>
+
 </body>
 </html>
