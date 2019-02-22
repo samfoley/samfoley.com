@@ -1,7 +1,7 @@
 body {
     display: grid;
     place-content: center;
-    grid-template-columns: 1fr minmax(300px, 400px) 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr auto 2fr;
     
     background-color: #ffe70a;
