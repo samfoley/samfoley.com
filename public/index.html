@@ -1,57 +1,32 @@
 <html>
 <head>
 <title>Sam Foley Software Developer</title>
-<style>
-body {
-    display: grid;
-    place-content: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    background-color: #6D7275;
-    color: #C7D6D5;
-    font-family: sans-serif;
-}
-
-#content {
-    grid-row: 2 / 3;
-    grid-column: 2 / 3;
-    padding: 50px;
-    background-color: #9c2c01;
-}
-h1 {
-    font-family: sans-serif;
-    color: #ECEBF3;
-    
-}
-h2 {
-    font-family: sans-serif;
-    
-}
-li { 
-    display: inline;
-    background-color:  #6D7275;
-    padding: 10px;
-    
-}
-a {
-    color: #0C120C;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+    <h1>Sam Foley</h1>
+    <h2>Frontend, backend and embedded software developer.</h2>
     <div id="content">
-           <h1>Sam Foley</h1>
-           <h2>Software Developer</h2>
+           
            <h3>Projects</h3>
-           <ul>
-               <li>Art Reveal</li>
-               <li>Next Project</li>
-               <li>Bitcoin Smartcard</li>
-           </ul>
-           <p>
-               <a href="https://github.com/samfoley">Github</a>
-               <a href="mailto:sam@samfoley.com">Email</a></a>
-           </p>
+           <div class="tile">   
+               <div class="tilecontent">
+                   <p><a href="https://play.google.com/store/apps/details?id=com.samfoley.artreveal"><img src="artreveal/icon.png" style="float: left; margin-right: 10px; margin-left: 10px" />Art Reveal - Android app helps archaeologists discover and document rock art. </a></p>                                           
+                </div>                             
+           </div>
+           <div class="tile">   
+                <div class="tilecontent">
+                    <p><img src="bitcoin/icon.svg" height="50" style="float: left; margin-right: 10px; margin-left: 10px" />Bitcoin Smart Card - NFC card for signing Bitcoin transactions </p>                                            
+                </div>                             
+            </div>
+ 
+            <div class="tile">   
+                <div class="tilecontent contact">
+                    <p><a href="https://github.com/samfoley/">Github</a> &nbsp;&nbsp;&middot;&nbsp;&nbsp; <a href="resume.pdf">CV</a> &nbsp;&nbsp;&middot;&nbsp;&nbsp; <a href="mailto:sam@samfoley.com">Email</a></p>
+                </div>                             
+            </div>
+            
+       
     </div>
 
 </body>
